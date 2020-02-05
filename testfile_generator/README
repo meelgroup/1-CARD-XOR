@@ -8,3 +8,5 @@ Steps to generate CARD-XOR files
 6) Choose the encoding {ADDER, BDD, CARD}. Choose the number of variables you need in the cnf and the number of times
    you want to conduct the experiment.
     > ./a.out ENCODING NUMVAR NUMEXP
+
+This executable generates *n x n* CNF files with *n* variables (projected) going through all the parameters discussed in the paper. 
