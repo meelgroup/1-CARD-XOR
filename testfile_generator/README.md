@@ -13,7 +13,7 @@ Steps to generate CARD-XOR files
     > cp build/libpb.a pblib/
 3) Copy the ```cardxorconverter.cpp``` file to the ```pblib``` folder and compile.
     ``` 
-    cp cardxorconverter.cpp pblib/
+    cp ../cardxorconverter.cpp pblib/ && cd pblib
     g++ -std=c++11 cardxorconverter.cpp libpb.a  && mkdir testfiles && mv a.out testfiles/
     ```
 4) Choose the encoding {ADDER, BDD, CARD}. Choose the number of variables you need in the cnf and the number of times
