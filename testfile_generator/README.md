@@ -1,7 +1,7 @@
 Steps to generate CARD-XOR files
 
 1) The PBLib Fork is located at https://github.com/master-keying/pblib. Compile the source code.
-2) Go to the ```pblib``` folder.
+2) Go to the `pblib` folder.
     > cp ../build/pblib.a .
 4) Copy the ```cardxorconverter.cpp``` file to the ```pblib``` folder.
     > g++ -std=c++11 cardxorconverter.cpp libpb.a  && mkdir testfiles && mv a.out testfiles/
