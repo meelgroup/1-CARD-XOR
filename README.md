@@ -3,10 +3,9 @@ Scripts and data for *["Phase Transition Behavior of Cardinality and XOR Constra
 
 1) pb-experiments folder has the graphs used in the paper and some more. 
 
-2) file generator scripts- In C++.
+2) testfile_generator folder has the C++ code to generate the CARD-XOR CNFs we use in our experiments.
 
-
-Our experiments were run with [CryptoMiniSAT5](https://github.com/msoos/cryptominisat)
+We ran our experiments with the SAT solver [CryptoMiniSAT5](https://github.com/msoos/cryptominisat)
 
 
 
